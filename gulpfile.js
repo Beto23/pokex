@@ -4,7 +4,7 @@ var source = require('vinyl-source-stream');
 
 //levanta un servidor local
 var webserver = require('gulp-webserver');
-//actualizar el navegador automÃ¡ticamente
+//actualizar el navegador automáticamente
 var livereload = require('gulp-livereload');
 
 ///////// STYLUS ///////////////
@@ -129,7 +129,7 @@ gulp.task('api', function(){
 
 
 //Tarea por default
-gulp.task('default',['clean','server'], function(){
+gulp.task('default',['clean','server','watch'], function(){
 	gulp
 		.start('fonts','stylusTocss','js','jadeTohtml','api');
 })

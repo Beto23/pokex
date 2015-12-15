@@ -1,0 +1,29 @@
+.Pokemons
+	padding-top 4em
+	.Pokemon
+		background #FCFDF3
+		display flex
+		&:nth-child(odd)
+			background grey
+		&-img
+			width 10em
+			height 10em
+			background black
+		&-info
+			display flex
+			position relative
+			align-items center
+			justify-content center
+			width 100%
+			padding-bottom 4em
+			&-name
+				padding 0 1em
+			button
+				position absolute
+				bottom 1em
+				right 1em
+				border 0
+				background $rojochido
+				padding .5em 1em
+				border-radius 3px
+				color white
