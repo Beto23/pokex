@@ -132,9 +132,13 @@ gulp.task('api', function(){
 		.pipe(gulp.dest(config.api.output));
 });
 
+gulp.task('img', function () {
+	return gulp.src(['api/img/*.jpg','api/img/*.png','api/img/*.ico'])
+	.pipe(gulp.dest('dist/api/img'))
+});
 
 //Tarea por default
 gulp.task('default',['clean','server','watch'], function(){
 	gulp
-		.start('fonts','stylusTocss','js','jadeTohtml','api');
+		.start('fonts','stylusTocss','js','img','jadeTohtml','api');
 })
