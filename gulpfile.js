@@ -28,7 +28,7 @@ var clean = require('gulp-rimraf');
 //modules of bower
 //hacer funcionar los require del frontend como si fuese backend
 var browserify=require('browserify');
-var debowerify=require('debowerify');
+//var debowerify=require('debowerify');
 
 var config = {
 	styles: {
@@ -98,8 +98,8 @@ gulp.task('stylusTocss', function(){
 
 gulp.task('js', function(){
 	return browserify({
-		entries: config.scripts.main,
-		transform: debowerify
+		entries: config.scripts.main
+		//transform: debowerify
 		})
 		.bundle()
 		.pipe(source('app.js'))
