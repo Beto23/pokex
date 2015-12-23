@@ -1,0 +1,71 @@
+commit f17d5458e96cf5bf3c22eece439035d9bb810e6c
+Author: Beto23 <josee-45@hotmail.com>
+Date:   Fri Dec 18 01:18:47 2015 -0600
+
+    Estilo del header con icono
+
+commit 6a1eb529fe78874f2f9636e1d9905973157d2c22
+Author: Beto23 <josee-45@hotmail.com>
+Date:   Fri Dec 18 01:17:47 2015 -0600
+
+    estilo para todos los css
+
+commit bc581e4327fbbf0dc9e9cd3fc65bd19ab3ee6d97
+Author: Beto23 <josee-45@hotmail.com>
+Date:   Thu Dec 17 23:46:25 2015 -0600
+
+    Estructura nueva targets
+
+commit 34fb219de5e265ea52faa9716ddd9f2cd78befe7
+Author: Beto23 <josee-45@hotmail.com>
+Date:   Thu Dec 17 23:40:45 2015 -0600
+
+    Add tarea para imagenes
+
+commit e7a4ef93cb9272406e436572504fed26a35e6c25
+Author: Beto23 <josee-45@hotmail.com>
+Date:   Tue Dec 15 13:01:46 2015 -0600
+
+    Add: browerify and devowerify
+
+commit 00e039f475b10fe8979d367c0e94c2264883c34e
+Author: Beto23 <josee-45@hotmail.com>
+Date:   Tue Dec 15 12:34:44 2015 -0600
+
+    Add: bower
+
+commit 853c0f542abf075b72478fa801b8bdb3a243d648
+Author: Beto23 <josee-45@hotmail.com>
+Date:   Tue Dec 15 12:18:58 2015 -0600
+
+    Add: list of pokemon
+
+commit bef180369fcf35487363906b2c19e11d717e6005
+Author: Beto23 <josee-45@hotmail.com>
+Date:   Tue Dec 15 12:16:56 2015 -0600
+
+    Add reset and normalize
+
+commit 57713676059970f1e38c37f86f6907a6a8e63109
+Author: Beto23 <josee-45@hotmail.com>
+Date:   Fri Dec 11 12:34:56 2015 -0600
+
+    Add estructura
+
+commit 08b735a1aef9b4b1b91e37a2faf3ee5e6553d4b0
+Author: Beto23 <josee-45@hotmail.com>
+Date:   Fri Dec 11 12:31:50 2015 -0600
+
+    Add pokemons
+
+commit 0b368e9da1bb2c9fdc24384a8cf5c7a424ea6d5d
+Author: Beto23 <josee-45@hotmail.com>
+Date:   Fri Dec 11 12:31:15 2015 -0600
+
+    Add package.json
+
+commit a9e98fdefbc51ac2186cb99947780ef5e7a2f5f9
+Author: Beto23 <josee-45@hotmail.com>
+Date:   Fri Dec 11 12:30:05 2015 -0600
+
+    Add gulp tasks
